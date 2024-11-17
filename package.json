@@ -1,0 +1,22 @@
+{
+  "name": "campire-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cam": "./bin/cam.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^12.1.0",
+    "ora": "^8.1.1",
+    "simple-git": "^3.27.0"
+  }
+}
